@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Basic_settings">Brucational basic settings</string>
+    <string name="parentexplorer">parent_explorer_preference</string>
+    <string name="voicemail">vm</string>
+    <string name="voicemail_provider">vp</string>
+    <string name="voicemail_settings">vs</string>
+    <string name="voicemail_ringtone_title">vr</string>
+</resources>

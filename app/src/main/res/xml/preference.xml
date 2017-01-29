@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/Basic_settings">
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="@string/parentexplorer"
+        android:title="More"
+        android:defaultValue="false"/>
+
+
+    <PreferenceScreen
+        android:key="button_voicemail_category_key"
+        android:title="Account Details"
+        android:persistent="false">
+        <EditTextPreference
+            android:key="Change_username"
+            android:title="Change Username" />
+        <!-- opens another nested subscreen -->
+        <EditTextPreference
+            android:key="Change_password"
+            android:title="Change password"
+            android:persistent="false">
+            ...
+        </EditTextPreference>
+        <RingtonePreference
+            android:key="button_voicemail_ringtone_key"
+            android:title="@string/voicemail_ringtone_title"
+            android:ringtoneType="notification"/>
+        ...
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="More Infomation">
+
+    </PreferenceCategory>
+
+    <Preference
+        android:title="Support"
+        android:defaultValue="false"/>
+    <Preference
+        android:title="Privacy Policy"
+        android:defaultValue="false"/>
+    <Preference
+        android:title="Terms of Service"
+        android:defaultValue="false"/> 
+
+
+
+
+    <PreferenceCategory
+        android:title="Account Actions">
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="Log_out"
+        android:title="Log out"
+        android:defaultValue="false">
+
+    </Preference>
+
+
+
+
+</PreferenceScreen>
+
+
+
+
+
+
+
+
+
